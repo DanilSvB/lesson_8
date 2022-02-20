@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+}
+.wrapper{
+    background:radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(39,50,242,0.7903536414565826) 100%), url(../img/fon_mozaika.jpg);
+    overflow: hidden;
+    min-height: 100%;
+}
+.content {
+    background: radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(63,154,207,1) 0%, rgba(23,29,198,0.7903536414565826) 100%);
+    border: 5px solid rgb(7, 194, 241);
+    border-radius: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1{
+    padding: 30px 0 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 40px 0;
+}
+.text-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.3; 
+    padding: 20px 20px 0 20px;
+    margin: 0 0 30px 0;     
+}
+
+.text-subtitle:hover{
+    box-shadow: 3px 2px 2px 3px black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.block-info1 {
+    text-align: center;
+}
+
+.link-info1 {
+    margin: 0 0 30px 0;
+}
+
+.link-info1::before{
+    content: '';
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+    background: url(../img/arrow.png) 0 7px / 50px no-repeat;
+    display: inline-block;
+}
+
+.info1-text a {
+    font-weight: 700;
+    padding: 0 10px;
+    border-radius: 30px;
+    line-height: 1.6;
+    font-size: 24px;
+    color: brown;
+    max-width: 400px;
+    background: radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(116,125,129,0.7903536414565826) 100%);
+}
+
+.info1-text a:hover{
+    background: black;
+    border: 5px solid blueviolet;
+}
+
+.info1-text a:visited{
+    color: green;
+}
+
+.info1-text a:active{
+    background: red;
+}
+
+.info1-img{
+    margin: 0 0 30px 0;
+}
+
+.info1-textinfo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.3; 
+    padding: 20px 20px 0 20px;
+    margin: 0 0 30px 0; 
+}
+
+.info1-textinfo:hover{
+    color: red;
+    box-shadow: 3px 2px 2px 3px black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.block-info2{
+    text-align: center;
+}
+
+.link-info2{
+    margin: 0 0 30px 0;
+}
+
+.link-info2::before{
+    content: '';
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+    background: url(../img/arrow.png) 0 7px / 50px no-repeat;
+    display: inline-block;
+}
+
+.info2-text a {
+    font-weight: 700;
+    padding: 0 10px;
+    border-radius: 30px;
+    line-height: 1.6;
+    font-size: 24px;
+    color: brown;
+    max-width: 400px;
+    background: radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(116,125,129,0.7903536414565826) 100%);
+}
+
+.info2-text a:hover{
+    background: black;
+    border: 5px solid blueviolet;
+}
+
+.info2-text a:visited{
+    color: green;
+}
+
+.info2-text a:active{
+    background: red;
+}
+
+.info2-img{
+    margin: 0 0 30px 0;
+}
+
+.info2-textinfo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.3; 
+    padding: 20px 20px 0 20px;
+    margin: 0 0 30px 0; 
+}
+
+.info2-textinfo:hover{
+    color: red;
+    box-shadow: 3px 2px 2px 3px black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.block-info3{
+    text-align: center;
+}
+
+.link-info3{
+    margin: 0 0 30px 0;
+}
+
+.link-info3::before{
+    content: '';
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+    background: url(../img/arrow.png) 0 7px / 50px no-repeat;
+    display: inline-block;
+}
+
+.info3-text a {
+    font-weight: 700;
+    padding: 0 10px;
+    border-radius: 30px;
+    line-height: 1.6;
+    font-size: 24px;
+    color: brown;
+    max-width: 400px;
+    background: radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(116,125,129,0.7903536414565826) 100%);
+}
+
+.info3-text a:hover{
+    background: black;
+    border: 5px solid blueviolet;
+}
+
+.info3-text a:visited{
+    color: green;
+}
+
+.info3-text a:active{
+    background: red;
+}
+
+.info3-img{
+    margin: 0 0 30px 0;
+}
+
+.info3-textinfo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.3; 
+    padding: 20px 20px 0 20px;
+    margin: 0 0 30px 0; 
+}
+
+.info3-textinfo:hover{
+    color: red;
+    box-shadow: 3px 2px 2px 3px black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.block-info4{
+    text-align: center;
+}
+
+.link-info4{
+    margin: 0 0 30px 0;
+}
+
+.link-info4::before{
+    content: '';
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+    background: url(../img/arrow.png) 0 7px / 50px no-repeat;
+    display: inline-block;
+}
+
+.info4-text a {
+    font-weight: 700;
+    padding: 0 10px;
+    border-radius: 30px;
+    line-height: 1.6;
+    font-size: 24px;
+    color: brown;
+    max-width: 400px;
+    background: radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(116,125,129,0.7903536414565826) 100%);
+}
+
+.info4-text a:hover{
+    background: black;
+    border: 5px solid blueviolet;
+}
+
+.info4-text a:visited{
+    color: green;
+}
+
+.info4-text a:active{
+    background: red;
+}
+
+.info4-img{
+    margin: 0 0 30px 0;
+}
+
+.info4-textinfo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.3; 
+    padding: 20px 20px 0 20px;
+    margin: 0 0 30px 0; 
+}
+
+.info4-textinfo:hover{
+    color: red;
+    box-shadow: 3px 2px 2px 3px black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.block-info5{
+    text-align: center;
+}
+
+.link-info5{
+    margin: 0 0 30px 0;
+}
+
+.link-info5::before{
+    content: '';
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+    background: url(../img/arrow.png) 0 7px / 50px no-repeat;
+    display: inline-block;
+}
+
+.info5-text a {
+    font-weight: 700;
+    padding: 0 10px;
+    border-radius: 30px;
+    line-height: 1.6;
+    font-size: 24px;
+    color: brown;
+    max-width: 400px;
+    background: radial-gradient(circle, rgba(87,230,212,0.5102415966386555) 0%, rgba(116,125,129,0.7903536414565826) 100%);
+}
+
+.info5-text a:hover{
+    background: black;
+    border: 5px solid blueviolet;
+}
+
+.info5-text a:visited{
+    color: green;
+}
+
+.info5-text a:active{
+    background: red;
+}
+
+.info5-img{
+    margin: 0 0 30px 0;
+}
+
+.info5-textinfo{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.3; 
+    padding: 20px 20px 0 20px;
+    margin-bottom: 30px; 
+}
+
+.info5-textinfo:hover{
+    color: red;
+}
+
+.info5-textinfo::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: rgb(6, 243, 124);
+    margin: 20px 0 0 0;
+}
+
+.block-list{
+    margin: 0 0 20px 0;
+}
+
+.block-list::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: rgb(6, 243, 124);
+    margin: 30px 0 0 0;
+}
+
+.block-list li a{
+    color: yellowgreen;
+    text-align: left;
+    font-size: 20px;
+    border-bottom: 3px solid rgba(234, 0, 255, 0.274);
+}
+
+.block-list li{
+    padding: 0 0 0 30px;
+}
+
+.block-list li::before{
+    content:'';
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 -30px;
+    background: url(../img/clown-fish.png) 0 2px / 30px auto no-repeat;   
+    display: inline-block;    
+}
+
+.block-list li a:hover{
+    border-bottom: 3px solid rgb(234, 0, 255);
+}
+
+.block-list li a:visited{
+    color: brown;
+    border-bottom: 3px solid rgb(250, 2, 2);
+}
+
+.block-list li:not(:last-child) {
+	margin: 0px 0px 20px 0px;
+}
+
+.fig-link a{
+    font-size: 35px;
+    color: yellow;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+
+.fig-link a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.fig-link a:hover::after{
+    content: '';
+    display: inline-block;
+    margin: 0 0 0 20px;
+    width: 35px;
+    height: 35px;
+    background: url(../img/clown-fish.png) 0 0 / 35px no-repeat;
+}
